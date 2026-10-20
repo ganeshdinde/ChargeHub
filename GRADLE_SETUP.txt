@@ -1,0 +1,17 @@
+ChargeHub Gradle setup
+======================
+
+This project uses:
+- Android Gradle Plugin: 8.5.2
+- Gradle: 8.7
+- Kotlin: 1.9.24
+- JDK: 17
+
+The Gradle wrapper properties have been restored to use Gradle 8.7.
+Open the project in Android Studio, select JDK 17 for Gradle, and run
+"Sync Project with Gradle Files".
+
+Note: this package includes the wrapper properties but not gradle-wrapper.jar.
+If Android Studio reports that the wrapper JAR is missing, use the project's
+Gradle installation to run `gradle wrapper` once, or let Android Studio
+regenerate the wrapper.
